@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    width: 300px;
+    margin: auto;
+}
+
+.info-container {
+    text-align: center;
+    background-color: #1A1B21; 
+    border-radius: 16px 16px 0px 0px;
+}
+
+.info-main {
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.btn-div {
+    margin: auto;
+    background-color: #1A1B21;
+}
+
+.avatar {
+    border-radius: 12px 12px 0px 0px;
+    height: 300px;
+    
+}
+
+.name {
+    color: white;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+.job {
+    font-weight: 400;
+    color: #F3BF99;
+    font-size: 12.8px;
+    line-height: 15px;
+    margin-top: 6px;
+}
+
+small {
+    color: #F5F5F5;
+    font-weight: 400;
+    font-size: 10.24px;
+}
+
+.email {
+    padding: 9px 13px 9px 11px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    margin-right: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.email:hover {
+    background: black;
+    color: white;
+}
+
+.linkedin {
+    background: #5093E2;
+    color: white;
+    padding: 9px 13px 9px 11px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.linkedin:hover {
+    color: #5093E2;
+    background: white;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 300px;
+    margin: auto;
+    background-color: #1A1B21;
+}
+
+.section-title {
+    color: #F5F5F5;
+    margin: 35px 0 0 30px;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.section-text {
+    color: #DCDCDC;
+    font-size: 10px;
+    margin: 10px 35px 0px 30px;
+    font-weight: 400;
+    line-height: 15.36px;
+}
+
+.interests {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 40px;
+}
+
+footer {
+    margin: auto;
+    background-color: #161619;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    border-radius: 0 0 12px 12px;
+}
+
+svg {
+   fill: #918E9B;
+   height: 30px;
+   width: 30px;
+   margin: 15px;
+}
